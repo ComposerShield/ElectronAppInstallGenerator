@@ -1,0 +1,20 @@
+{
+	"name": "MyElectronApp",
+	"version": "0.1.0",
+	"desription": "A test app for developing windows installer.",
+	"main": "index.js",
+	"scripts": {
+		"start": "electron .",
+		"pack": "build --dir"
+	},
+	"build": {
+		"appId": "com.My.Electron.app",
+		"productName": "TEST APP"
+	},
+	"author": "Adam Shield <adam.patrick.shield@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"electron-squirrel-startup": "^1.0.0"
+	}
+	
+}
