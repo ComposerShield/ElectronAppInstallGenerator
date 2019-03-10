@@ -1,6 +1,0 @@
-directories:
-  output: dist
-  buildResources: build
-appId: com.My.Electron.app
-productName: TEST APP
-electronVersion: 3.0.16
